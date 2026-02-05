@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-@ExtendWith(MockitoExtension.class) // Tells JUnit to use Mockito
+@ExtendWith(MockitoExtension.class)
 class BookServiceTest {
 
     @Mock
